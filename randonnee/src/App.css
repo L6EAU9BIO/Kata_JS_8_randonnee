@@ -39,6 +39,7 @@ h1 {
     .titre_rando {
         padding: 1rem;
         border: 2px dotted blanchedalmond; 
+        border-radius: 1rem;
     }
 
     .caract {
