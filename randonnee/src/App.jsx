@@ -1,4 +1,4 @@
-
+import './App.css'
 import Entete from './Entete.jsx'
 import randonnees from './randonnees.json';
 import ListeRandos from './ListeRandos.jsx';
@@ -8,10 +8,10 @@ function App() {
 
   return (
       <>
-      
-      <Entete />
-      <ListeRandos randonnees={randonnees}/>
-      
+
+        <Entete />
+        <ListeRandos randonnees={randonnees}/>
+
       </>  
   )
 }

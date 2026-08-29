@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size:8rem;
+}
+
+.intro {
+    font-size: 2rem;
+}
+
+.entete {
+    background-color: rgb(77, 160, 205);
+    color: blanchedalmond;
+    padding: 4rem;
+}
+
+.liste_randos {
+    background-image: url(./assets/Carte-IGN.jpg);
+
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.carte_rando {
+    border-radius: 2rem;
+    background-color: rgb(84, 149, 84);
+
+    height: 12rem;
+    width: 20rem;
+    margin: 1rem;
+    padding: 1rem;
+   
+    color: blanchedalmond;
+
+    .titre_rando {
+        padding: 1rem;
+        border: 2px dotted blanchedalmond; 
+    }
+
+    .caract {
+        padding: 1rem;
+    }
+    li {
+        padding: 0.15rem;
+        list-style-type: "✦";
+
+        .diff_li {
+            list-style-type: "✦";
+        }
+        .duree_li {
+            list-style-type: "⌛︎";
+        }
+        .deniv_li {
+            list-style-type: "↗";
+        }
+        .region_li {
+            list-style-type: "☖";
+        }
+        .balisee {
+            list-style-type: "⚑";
+        }
+    }
+}
